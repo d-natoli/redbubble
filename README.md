@@ -20,6 +20,7 @@ Run `bundle install`.
 
 ## Testing
 
+Run 'bundle exec rspec'.
 
 ## Design
 
