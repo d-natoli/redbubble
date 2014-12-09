@@ -26,6 +26,7 @@ Run `bundle install`.
 
 ## Licence
 
+See LICENCE.txt.
 
 ## Contributing
 
