@@ -6,3 +6,5 @@
 
 module ImageDataProcessor
 end
+
+require_relative 'image_data_processor/parser'
