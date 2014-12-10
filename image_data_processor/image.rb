@@ -26,6 +26,12 @@ module ImageDataProcessor
       end
     end
 
+    def ==(other)
+      [:id, :make, :model, :thumbnail_url].all? do |attr|
+        self.__send__(attr) == other.__send__(attr)
+      end
+    end
+
     private
 
     def blank?(value)
