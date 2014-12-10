@@ -8,10 +8,12 @@ module ImageDataProcessor
   class Image
 
     def initialize(attrs)
-      @id = attrs[:id]
+      @id = attrs.fetch :id
       @make = attrs[:make]
       @model = attrs[:model]
-      @thumbnail_url = attrs[:thumbnail_url]
+      @thumbnail_url = attrs.fetch :thumbnail_url
+    rescue KeyError
+      raise ArgumentError, "Image must have an ID and thumbnail url!"
     end
 
     attr_reader :id, :thumbnail_url

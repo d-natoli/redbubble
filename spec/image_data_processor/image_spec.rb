@@ -42,6 +42,16 @@ RSpec.describe ImageDataProcessor::Image do
         expect(image.thumbnail_url).to eq "http://example.com/really-awesome-photo"
       end
     end
+
+    context "when passed invalid data" do
+      let(:invalid_attributes){ {} }
+
+      it "raises an error" do
+        expect{
+          described_class.new invalid_attributes
+        }.to raise_error ArgumentError, "Image must have an ID and thumbnail url!"
+      end
+    end
   end
 
 end
