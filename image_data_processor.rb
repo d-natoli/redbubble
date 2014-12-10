@@ -4,6 +4,8 @@
 # and generates the appropriate html files based
 # off the provided template.
 
+require 'nokogiri'
+
 module ImageDataProcessor
 end
 

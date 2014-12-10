@@ -1,8 +1,5 @@
-# This class parses the file using nokogiri, pulls out
-# the wanted information, and converts it to a hash
-# for easier data access.
-
-require 'nokogiri'
+# This class parses the file using nokogiri and
+# calls the hash conversion for easier data access.
 
 module ImageDataProcessor
   class Parser
@@ -18,21 +15,8 @@ module ImageDataProcessor
 
       def convert_xml_to_hashes(images_xml)
         images_xml.inject([]){ |image_data_hashes, image_xml|
-          image_data_hashes << convert_single_image_xml(image_xml)
+          image_data_hashes << XmlToHash.to_hash(image_xml)
         }
-      end
-
-      def convert_single_image_xml(image_xml)
-        {
-          id: image_data(image_xml, ".//id"),
-          make: image_data(image_xml, ".//make"),
-          model: image_data(image_xml, ".//model"),
-          thumbnail_url: image_data(image_xml, ".//url[@type='small']")
-        }
-      end
-
-      def image_data(image_xml, path)
-        image_xml.xpath(path).text
       end
     end
 
@@ -56,3 +40,5 @@ module ImageDataProcessor
 
   end
 end
+
+require_relative 'parser/xml_to_hash'
