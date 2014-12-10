@@ -6,16 +6,32 @@ module ImageDataProcessor
 
     class << self
       def build_images(image_data_hashes)
-        image_data_hashes.inject([]) do |images, image_data_hash|
+        images = image_data_hashes.inject([]){ |images, image_data_hash|
           images << build_image(image_data_hash)
-        end
+        }
+
+        print_failed_import_message_if_required(images)
+
+        images.compact
       end
 
       private
 
       def build_image(image_data_hash)
         Image.new image_data_hash
+      rescue ArgumentError
+        nil
       end
+
+      def print_failed_import_message_if_required(images)
+        count = images.select(&:nil?).count
+
+        if count > 0
+          word = count > 1 ? "images" : "image"
+          puts "#{count} #{word} failed to import due to invalid attributes!"
+        end
+      end
+
     end
 
   end
