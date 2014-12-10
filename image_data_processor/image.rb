@@ -12,7 +12,9 @@ module ImageDataProcessor
       @make = attrs[:make]
       @model = attrs[:model]
       @thumbnail_url = attrs.fetch :thumbnail_url
-    rescue KeyError
+
+      validate!
+    rescue KeyError, ArgumentError
       raise ArgumentError, "Image must have an ID and thumbnail url!"
     end
 
@@ -36,6 +38,10 @@ module ImageDataProcessor
 
     def blank?(value)
       value.respond_to?(:empty?) ? !!value.empty? : !value
+    end
+
+    def validate!
+      raise ArgumentError, "Invalid argument" if blank?(id) || blank?(thumbnail_url)
     end
 
   end

@@ -44,7 +44,7 @@ RSpec.describe ImageDataProcessor::Image do
     end
 
     context "when passed invalid data" do
-      let(:invalid_attributes){ {} }
+      let(:invalid_attributes){ { id: "", thumbnail_url: nil } }
 
       it "raises an error" do
         expect{
