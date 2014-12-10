@@ -6,6 +6,8 @@ module ImageDataProcessor
   module Parser::XmlToHash
 
     class << self
+      # TODO: Load the paths and attributes from
+      # somewhere so its not so inflexible.
       def to_hash(xml)
         {
           id: image_data(xml, ".//id"),
