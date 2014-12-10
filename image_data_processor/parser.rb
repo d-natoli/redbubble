@@ -6,9 +6,10 @@ module ImageDataProcessor
 
     class << self
       def parse(filename)
-        parser = new(filename)
-        images_xml = parser.read_images_data
+        images_xml = new(filename).parse_file
         convert_xml_to_hashes images_xml
+      rescue Errno::ENOENT
+        raise ArgumentError, "File doesn't exist!"
       end
 
       private
@@ -28,14 +29,18 @@ module ImageDataProcessor
 
     attr_reader :filename
 
+    def parse_file
+      images_xml = self.read_images_data
+
+      raise ArgumentError, "File is invalid!" unless images_xml.count > 0
+
+      images_xml
+    end
+
     def read_images_data
-      document = nil
-
       File.open(filename) do |file|
-        document = Nokogiri::XML(file)
+        Nokogiri::XML(file).xpath("//work")
       end
-
-      document.xpath("//work")
     end
 
   end

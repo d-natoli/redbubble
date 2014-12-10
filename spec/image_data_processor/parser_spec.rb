@@ -4,7 +4,7 @@ RSpec.describe ImageDataProcessor::Parser do
 
   describe ".parse" do
     context "when given a valid file" do
-      let(:filename){ 'docs/works.xml' }
+      let(:filename){ 'spec/fixtures/valid.xml' }
 
       it "reads the file and doesn't raise any errors" do
         expect{
@@ -37,7 +37,26 @@ RSpec.describe ImageDataProcessor::Parser do
           thumbnail_url: "http://ih1.redbubble.net/work.867035.1.flat,135x135,075,f.jpg"
         })
       end
+    end
 
+    context "when given an invalid file" do
+      let(:filename){ "spec/fixtures/invalid.xml" }
+
+      it "raises an argument error" do
+        expect{
+          described_class.parse(filename)
+        }.to raise_error ArgumentError, "File is invalid!"
+      end
+    end
+
+    context "when given a file that doesn't exist" do
+      let(:filename){ "spec/fixtures/idontexist.xml" }
+
+      it "raises an argument error" do
+        expect{
+          described_class.parse(filename)
+        }.to raise_error ArgumentError, "File doesn't exist!"
+      end
     end
   end
 

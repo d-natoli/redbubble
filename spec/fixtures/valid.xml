@@ -1,0 +1,596 @@
+<?xml version="1.0"?>
+<works>
+  <work>
+    <id>31820</id>
+    <filename>162042.jpg</filename>
+    <image_width>2206</image_width>
+    <image_height>2205</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.31820.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.31820.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.31820.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>0</flash>
+      <sharpness>2</sharpness>
+      <pixel_y_dimension>2205</pixel_y_dimension>
+      <date_time_digitized>Mon Jun 04 14:33:59 +1000 2007</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length_in_35mm_film>93</focal_length_in_35mm_film>
+      <subsec_time_orginal>00</subsec_time_orginal>
+      <model>NIKON D80</model>
+      <software>Adobe Photoshop CS3 Macintosh</software>
+      <focal_length>62</focal_length>
+      <max_aperture_value>47/10</max_aperture_value>
+      <scene_capture_type>0</scene_capture_type>
+      <subsec_time_digitized>00</subsec_time_digitized>
+      <iso_speed_ratings>100</iso_speed_ratings>
+      <date_time>Sun Aug 26 12:55:02 +1000 2007</date_time>
+      <compressed_bits_per_pixel>4</compressed_bits_per_pixel>
+      <subject_distance_range>0</subject_distance_range>
+      <custom_rendered>0</custom_rendered>
+      <make>NIKON CORPORATION</make>
+      <gain_control>0</gain_control>
+      <orientation>1</orientation>
+      <exposure_time>1/10</exposure_time>
+      <exposure_mode>0</exposure_mode>
+      <x_resolution>300</x_resolution>
+      <metering_mode>5</metering_mode>
+      <sensing_method>2</sensing_method>
+      <contrast>0</contrast>
+      <color_space>1</color_space>
+      <f_number>5</f_number>
+      <white_balance>0</white_balance>
+      <user_comment></user_comment>
+      <y_resolution>300</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <light_source>0</light_source>
+      <saturation>2</saturation>
+      <pixel_x_dimension>2206</pixel_x_dimension>
+      <date_time_original>Mon Jun 04 14:33:59 +1000 2007</date_time_original>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>4</exposure_program>
+      <digital_zoom_ratio>1</digital_zoom_ratio>
+      <subsec_time>00</subsec_time>
+      <jpeg_interchange_format>978</jpeg_interchange_format>
+      <jpeg_interchange_format_length>7171</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+  <work>
+    <id>2041</id>
+    <filename>2010.jpg</filename>
+    <image_width>3504</image_width>
+    <image_height>2336</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.2041.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.2041.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.2041.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>2336</pixel_y_dimension>
+      <date_time_digitized>Wed Jul 06 13:17:27 +1000 2005</date_time_digitized>
+      <focal_plane_resolution_unit>2</focal_plane_resolution_unit>
+      <exposure_bias_value>0</exposure_bias_value>
+      <model>Canon EOS 20D</model>
+      <software>Adobe Photoshop CS Windows</software>
+      <focal_length>28</focal_length>
+      <scene_capture_type>0</scene_capture_type>
+      <iso_speed_ratings>100</iso_speed_ratings>
+      <date_time>Thu Sep 08 08:39:53 +1000 2005</date_time>
+      <custom_rendered>0</custom_rendered>
+      <make>Canon</make>
+      <orientation>1</orientation>
+      <exposure_time>1/30</exposure_time>
+      <exposure_mode>0</exposure_mode>
+      <shutter_speed_value>160789/32768</shutter_speed_value>
+      <x_resolution>72</x_resolution>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <f_number>4</f_number>
+      <user_comment></user_comment>
+      <white_balance>1</white_balance>
+      <focal_plane_x_resolution>233600/59</focal_plane_x_resolution>
+      <aperture_value>4</aperture_value>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <date_time_original>Wed Jul 06 13:17:27 +1000 2005</date_time_original>
+      <pixel_x_dimension>3504</pixel_x_dimension>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>2</exposure_program>
+      <focal_plane_y_resolution>233600/59</focal_plane_y_resolution>
+      <jpeg_interchange_format>1046</jpeg_interchange_format>
+      <jpeg_interchange_format_length>3898</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+  <work>
+    <id>240509</id>
+    <filename>261748.jpg</filename>
+    <image_width>4000</image_width>
+    <image_height>3000</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.240509.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.240509.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.240509.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <copyright></copyright>
+      <flash>16</flash>
+      <sharpness>0</sharpness>
+      <pixel_y_dimension>3000</pixel_y_dimension>
+      <date_time_digitized>Sun Oct 07 18:48:08 +1000 2007</date_time_digitized>
+      <focal_plane_resolution_unit>3</focal_plane_resolution_unit>
+      <exposure_bias_value>0</exposure_bias_value>
+      <model>FinePix S6500fd</model>
+      <software>Adobe Photoshop 7.0</software>
+      <focal_length>31/5</focal_length>
+      <iso_speed_ratings>400</iso_speed_ratings>
+      <scene_capture_type>0</scene_capture_type>
+      <max_aperture_value>3</max_aperture_value>
+      <date_time>Mon Oct 08 08:53:09 +1000 2007</date_time>
+      <custom_rendered>0</custom_rendered>
+      <subject_distance_range>0</subject_distance_range>
+      <compressed_bits_per_pixel>4</compressed_bits_per_pixel>
+      <make>FUJIFILM</make>
+      <orientation>1</orientation>
+      <shutter_speed_value>23/4</shutter_speed_value>
+      <exposure_mode>0</exposure_mode>
+      <exposure_time>1/52</exposure_time>
+      <x_resolution>72</x_resolution>
+      <metering_mode>5</metering_mode>
+      <sensing_method>2</sensing_method>
+      <color_space>1</color_space>
+      <aperture_value>3</aperture_value>
+      <white_balance>0</white_balance>
+      <focal_plane_x_resolution>3703</focal_plane_x_resolution>
+      <f_number>14/5</f_number>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <light_source>0</light_source>
+      <pixel_x_dimension>4000</pixel_x_dimension>
+      <date_time_original>Sun Oct 07 18:48:08 +1000 2007</date_time_original>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>2</exposure_program>
+      <focal_plane_y_resolution>3703</focal_plane_y_resolution>
+      <brightness_value>39/50</brightness_value>
+      <jpeg_interchange_format>910</jpeg_interchange_format>
+      <jpeg_interchange_format_length>8917</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+  <work>
+    <id>26583</id>
+    <filename>27112.jpg</filename>
+    <image_width>1109</image_width>
+    <image_height>1104</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.26583.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.26583.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.26583.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <pixel_y_dimension>1104</pixel_y_dimension>
+      <software>Adobe Photoshop CS2 Windows</software>
+      <date_time>Fri Mar 30 19:11:10 +1000 2007</date_time>
+      <orientation>1</orientation>
+      <color_space>1</color_space>
+      <x_resolution>300</x_resolution>
+      <pixel_x_dimension>1109</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>300</y_resolution>
+      <jpeg_interchange_format>302</jpeg_interchange_format>
+      <jpeg_interchange_format_length>4971</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+  <work>
+    <id>2729606</id>
+    <filename>2849897.jpg</filename>
+    <image_width>4208</image_width>
+    <image_height>2360</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.2729606.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.2729606.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.2729606.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>2360</pixel_y_dimension>
+      <date_time_digitized>Sat Feb 28 17:01:43 +1100 2009</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length>63/10</focal_length>
+      <model>D-LUX 3</model>
+      <max_aperture_value>3</max_aperture_value>
+      <iso_speed_ratings>100</iso_speed_ratings>
+      <date_time>Sat Feb 28 17:01:43 +1100 2009</date_time>
+      <make>LEICA</make>
+      <exposure_time>1/1000</exposure_time>
+      <orientation>1</orientation>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <x_resolution>72</x_resolution>
+      <f_number>8</f_number>
+      <date_time_original>Sat Feb 28 17:01:43 +1100 2009</date_time_original>
+      <pixel_x_dimension>4208</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <exposure_program>1</exposure_program>
+    </exif>
+  </work>
+  <work>
+    <id>2828069</id>
+    <filename>2953043.jpg</filename>
+    <image_width>1840</image_width>
+    <image_height>1232</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.2828069.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.2828069.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.2828069.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <date_time_digitized>Fri Mar 27 10:35:27 +1100 2009</date_time_digitized>
+      <pixel_y_dimension>1232</pixel_y_dimension>
+      <software>FDi V4.5 / FRONTIER340-3.0-0E-518</software>
+      <model>SLP1000SE</model>
+      <date_time>Fri Mar 27 10:35:27 +1100 2009</date_time>
+      <make>FUJI PHOTO FILM CO., LTD.</make>
+      <orientation>1</orientation>
+      <color_space>1</color_space>
+      <x_resolution>72</x_resolution>
+      <pixel_x_dimension>1840</pixel_x_dimension>
+      <date_time_original>Fri Mar 27 10:35:27 +1100 2009</date_time_original>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+    </exif>
+  </work>
+  <work>
+    <id>3201430</id>
+    <filename>3348825.jpg</filename>
+    <image_width>4224</image_width>
+    <image_height>2376</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.3201430.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.3201430.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.3201430.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <sharpness>0</sharpness>
+      <pixel_y_dimension>2376</pixel_y_dimension>
+      <date_time_digitized>Sat Nov 29 12:40:10 +1100 2008</date_time_digitized>
+      <focal_length_in_35mm_film>28</focal_length_in_35mm_film>
+      <exposure_bias_value>0</exposure_bias_value>
+      <software>QuickTime 7.6</software>
+      <model>D-LUX 3</model>
+      <focal_length>63/10</focal_length>
+      <iso_speed_ratings>100</iso_speed_ratings>
+      <scene_capture_type>0</scene_capture_type>
+      <max_aperture_value>3</max_aperture_value>
+      <date_time>Fri Apr 03 17:12:23 +1100 2009</date_time>
+      <compressed_bits_per_pixel>4</compressed_bits_per_pixel>
+      <custom_rendered>0</custom_rendered>
+      <make>LEICA</make>
+      <orientation>1</orientation>
+      <exposure_time>1/200</exposure_time>
+      <exposure_mode>0</exposure_mode>
+      <x_resolution>72</x_resolution>
+      <metering_mode>5</metering_mode>
+      <sensing_method>2</sensing_method>
+      <contrast>0</contrast>
+      <color_space>1</color_space>
+      <host_computer>Mac OS X 10.5.6</host_computer>
+      <white_balance>0</white_balance>
+      <f_number>28/5</f_number>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <date_time_original>Sat Nov 29 12:40:10 +1100 2008</date_time_original>
+      <pixel_x_dimension>4224</pixel_x_dimension>
+      <saturation>0</saturation>
+      <light_source>0</light_source>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>2</exposure_program>
+      <digital_zoom_ratio>0</digital_zoom_ratio>
+      <jpeg_interchange_format>7564</jpeg_interchange_format>
+      <jpeg_interchange_format_length>3444</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <ycb_cr_positioning>1</ycb_cr_positioning>
+    </exif>
+  </work>
+  <work>
+    <id>3502552</id>
+    <filename>3664692.jpg</filename>
+    <image_width>4208</image_width>
+    <image_height>2360</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.3502552.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.3502552.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.3502552.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>2360</pixel_y_dimension>
+      <date_time_digitized>Sun Jul 19 16:59:33 +1000 2009</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length>58/5</focal_length>
+      <model>D-LUX 3</model>
+      <max_aperture_value>3</max_aperture_value>
+      <iso_speed_ratings>200</iso_speed_ratings>
+      <date_time>Sun Jul 19 16:59:33 +1000 2009</date_time>
+      <make>LEICA</make>
+      <exposure_time>1/320</exposure_time>
+      <orientation>1</orientation>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <x_resolution>72</x_resolution>
+      <f_number>18/5</f_number>
+      <date_time_original>Sun Jul 19 16:59:33 +1000 2009</date_time_original>
+      <pixel_x_dimension>4208</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <exposure_program>1</exposure_program>
+    </exif>
+  </work>
+  <work>
+    <id>3745978</id>
+    <filename>3919261.jpg</filename>
+    <image_width>3264</image_width>
+    <image_height>2448</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.3745978.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.3745978.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.3745978.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <date_time_digitized>Thu May 04 17:53:25 +1000 2006</date_time_digitized>
+      <pixel_y_dimension>2448</pixel_y_dimension>
+      <sharpness>0</sharpness>
+      <flash>16</flash>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length_in_35mm_film>49</focal_length_in_35mm_film>
+      <model>DMC-FZ30</model>
+      <software>Ver.1.0</software>
+      <focal_length>52/5</focal_length>
+      <max_aperture_value>3</max_aperture_value>
+      <scene_capture_type>0</scene_capture_type>
+      <iso_speed_ratings>80</iso_speed_ratings>
+      <date_time>Thu May 04 17:53:25 +1000 2006</date_time>
+      <custom_rendered>0</custom_rendered>
+      <compressed_bits_per_pixel>4</compressed_bits_per_pixel>
+      <make>Panasonic</make>
+      <gain_control>0</gain_control>
+      <orientation>1</orientation>
+      <exposure_time>1/80</exposure_time>
+      <exposure_mode>0</exposure_mode>
+      <x_resolution>72</x_resolution>
+      <metering_mode>5</metering_mode>
+      <sensing_method>2</sensing_method>
+      <contrast>0</contrast>
+      <color_space>1</color_space>
+      <white_balance>0</white_balance>
+      <f_number>4</f_number>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <date_time_original>Thu May 04 17:53:25 +1000 2006</date_time_original>
+      <pixel_x_dimension>3264</pixel_x_dimension>
+      <saturation>0</saturation>
+      <light_source>0</light_source>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>2</exposure_program>
+      <digital_zoom_ratio>0</digital_zoom_ratio>
+      <jpeg_interchange_format>6804</jpeg_interchange_format>
+      <jpeg_interchange_format_length>6682</jpeg_interchange_format_length>
+      <orientation>1</orientation>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+    </exif>
+  </work>
+  <work>
+    <id>3775226</id>
+    <filename>3949523.jpg</filename>
+    <image_width>3264</image_width>
+    <image_height>1809</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.3775226.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.3775226.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.3775226.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <date_time_digitized>Mon Apr 24 10:51:44 +1000 2006</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <software>QuickTime 7.0.4</software>
+      <model>DMC-FZ30</model>
+      <focal_length>444/5</focal_length>
+      <max_aperture_value>3</max_aperture_value>
+      <iso_speed_ratings>80</iso_speed_ratings>
+      <date_time>Tue Apr 25 09:41:33 +1000 2006</date_time>
+      <make>Panasonic</make>
+      <orientation>1</orientation>
+      <exposure_time>1/200</exposure_time>
+      <x_resolution>72</x_resolution>
+      <color_space>1</color_space>
+      <sensing_method>2</sensing_method>
+      <metering_mode>5</metering_mode>
+      <host_computer>Mac OS X 10.4.5</host_computer>
+      <f_number>28/5</f_number>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <light_source>0</light_source>
+      <date_time_original>Mon Apr 24 10:51:44 +1000 2006</date_time_original>
+      <ycb_cr_positioning>1</ycb_cr_positioning>
+      <exposure_program>2</exposure_program>
+      <jpeg_interchange_format>618</jpeg_interchange_format>
+      <jpeg_interchange_format_length>3372</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <ycb_cr_positioning>1</ycb_cr_positioning>
+    </exif>
+  </work>
+  <work>
+    <id>512919</id>
+    <filename>550863.jpg</filename>
+    <image_width>4208</image_width>
+    <image_height>2360</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.512919.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.512919.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.512919.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>2360</pixel_y_dimension>
+      <date_time_digitized>Sat Dec 29 20:57:19 +1100 2007</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length>63/10</focal_length>
+      <model>D-LUX 3</model>
+      <max_aperture_value>3</max_aperture_value>
+      <iso_speed_ratings>800</iso_speed_ratings>
+      <make>LEICA</make>
+      <exposure_time>1/250</exposure_time>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <x_resolution>72</x_resolution>
+      <f_number>14/5</f_number>
+      <date_time_original>Sat Dec 29 20:57:19 +1100 2007</date_time_original>
+      <pixel_x_dimension>4208</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <exposure_program>1</exposure_program>
+    </exif>
+  </work>
+  <work>
+    <id>4250369</id>
+    <filename>6783468.jpg</filename>
+    <image_width>4003</image_width>
+    <image_height>2250</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.4250369.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.4250369.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.4250369.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>2250</pixel_y_dimension>
+      <date_time_digitized>Fri Nov 27 14:09:31 +1100 2009</date_time_digitized>
+      <exposure_bias_value>0</exposure_bias_value>
+      <focal_length>63/10</focal_length>
+      <model>D-LUX 3</model>
+      <max_aperture_value>3</max_aperture_value>
+      <iso_speed_ratings>100</iso_speed_ratings>
+      <date_time>Fri Nov 27 14:09:31 +1100 2009</date_time>
+      <make>LEICA</make>
+      <exposure_time>1/1000</exposure_time>
+      <orientation>1</orientation>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <x_resolution>72</x_resolution>
+      <f_number>18/5</f_number>
+      <date_time_original>Fri Nov 27 14:09:31 +1100 2009</date_time_original>
+      <pixel_x_dimension>4003</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>72</y_resolution>
+      <exposure_program>1</exposure_program>
+    </exif>
+  </work>
+  <work>
+    <id>777577</id>
+    <filename>827375.jpg</filename>
+    <image_width>3880</image_width>
+    <image_height>3008</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.777577.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.777577.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.777577.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <flash>16</flash>
+      <pixel_y_dimension>3008</pixel_y_dimension>
+      <date_time_digitized>Sat Feb 23 14:06:20 +1100 2008</date_time_digitized>
+      <focal_plane_resolution_unit>2</focal_plane_resolution_unit>
+      <exposure_bias_value>1/3</exposure_bias_value>
+      <model>Canon EOS 400D DIGITAL</model>
+      <software>Adobe Photoshop CS Macintosh</software>
+      <focal_length>43</focal_length>
+      <scene_capture_type>0</scene_capture_type>
+      <iso_speed_ratings>200</iso_speed_ratings>
+      <date_time>Mon Feb 25 19:15:22 +1100 2008</date_time>
+      <custom_rendered>0</custom_rendered>
+      <make>Canon</make>
+      <orientation>1</orientation>
+      <exposure_time>1/320</exposure_time>
+      <exposure_mode>0</exposure_mode>
+      <shutter_speed_value>272693/32768</shutter_speed_value>
+      <x_resolution>300</x_resolution>
+      <metering_mode>5</metering_mode>
+      <color_space>1</color_space>
+      <f_number>5</f_number>
+      <user_comment></user_comment>
+      <white_balance>0</white_balance>
+      <focal_plane_x_resolution>3888000/877</focal_plane_x_resolution>
+      <aperture_value>76085/16384</aperture_value>
+      <y_resolution>300</y_resolution>
+      <resolution_unit>2</resolution_unit>
+      <date_time_original>Sat Feb 23 14:06:20 +1100 2008</date_time_original>
+      <pixel_x_dimension>3880</pixel_x_dimension>
+      <ycb_cr_positioning>2</ycb_cr_positioning>
+      <exposure_program>3</exposure_program>
+      <focal_plane_y_resolution>432000/97</focal_plane_y_resolution>
+      <jpeg_interchange_format>1054</jpeg_interchange_format>
+      <jpeg_interchange_format_length>6146</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+  <work>
+    <id>867035</id>
+    <filename>920668.jpg</filename>
+    <image_width>2160</image_width>
+    <image_height>2196</image_height>
+    <urls>
+      <url type="small">http://ih1.redbubble.net/work.867035.1.flat,135x135,075,f.jpg</url>
+      <url type="medium">http://ih1.redbubble.net/work.867035.1.flat,300x300,075,f.jpg</url>
+      <url type="large">http://ih1.redbubble.net/work.867035.1.flat,550x550,075,f.jpg</url>
+    </urls>
+    <exif>
+      <pixel_y_dimension>2196</pixel_y_dimension>
+      <software>Adobe Photoshop CS3 Macintosh</software>
+      <date_time>Fri Mar 14 11:50:22 +1100 2008</date_time>
+      <orientation>1</orientation>
+      <color_space>1</color_space>
+      <x_resolution>600</x_resolution>
+      <pixel_x_dimension>2160</pixel_x_dimension>
+      <resolution_unit>2</resolution_unit>
+      <y_resolution>600</y_resolution>
+      <jpeg_interchange_format>302</jpeg_interchange_format>
+      <jpeg_interchange_format_length>5205</jpeg_interchange_format_length>
+      <x_resolution>72</x_resolution>
+      <compression>6</compression>
+      <y_resolution>72</y_resolution>
+      <resolution_unit>2</resolution_unit>
+    </exif>
+  </work>
+</works>
