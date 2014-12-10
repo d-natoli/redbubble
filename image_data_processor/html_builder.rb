@@ -11,3 +11,4 @@ module ImageDataProcessor
 end
 
 require_relative 'html_builder/title_generator'
+require_relative 'html_builder/navigation_generator'
