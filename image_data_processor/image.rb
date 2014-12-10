@@ -41,7 +41,9 @@ module ImageDataProcessor
     end
 
     def validate!
-      raise ArgumentError, "Invalid argument" if blank?(id) || blank?(thumbnail_url)
+      if [id, thumbnail_url].any?{ |attr| blank?(attr) }
+        raise ArgumentError, "Missing attribute"
+      end
     end
 
   end
