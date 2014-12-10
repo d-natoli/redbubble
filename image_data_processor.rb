@@ -11,3 +11,4 @@ end
 
 require_relative 'image_data_processor/parser'
 require_relative 'image_data_processor/image'
+require_relative 'image_data_processor/image_factory'
