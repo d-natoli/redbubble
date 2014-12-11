@@ -33,7 +33,7 @@ module ImageDataProcessor
         build_page filename: build_path(make),
           title: build_title(make),
           navigation: build_navigation(images, :model, true),
-          gallery: build_gallery(images)
+          gallery: build_gallery(images.take(10))
       end
     end
 
