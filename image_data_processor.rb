@@ -4,11 +4,10 @@
 # and generates the appropriate html files based
 # off the provided template.
 
-require 'nokogiri'
-
 module ImageDataProcessor
 end
 
 require_relative 'image_data_processor/parser'
 require_relative 'image_data_processor/image'
 require_relative 'image_data_processor/image_factory'
+require_relative 'image_data_processor/html_builder'
