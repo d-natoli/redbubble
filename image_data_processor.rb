@@ -5,6 +5,14 @@
 # off the provided template.
 
 module ImageDataProcessor
+  def self.run(filename)
+    data_hashes = Parser.parse filename
+    images = ImageFactory.build_images data_hashes
+
+    HtmlBuilder.build_pages(images)
+  rescue ArgumentError => e
+    puts e.message
+  end
 end
 
 require_relative 'image_data_processor/parser'
