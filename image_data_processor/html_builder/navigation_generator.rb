@@ -37,8 +37,10 @@ module ImageDataProcessor
       if type == :make
         [generate_menu_item(make)]
       elsif type == :model
-        images.inject([]) do |navigation_parts, image|
-          navigation_parts << generate_menu_item(make, image.model)
+        images_by_model = images.group_by(&:model)
+
+        images_by_model.inject([]) do |navigation_parts, (model, images)|
+          navigation_parts << generate_menu_item(make, model)
         end
       end
     end

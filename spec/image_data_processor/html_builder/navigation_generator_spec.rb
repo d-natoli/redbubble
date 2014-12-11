@@ -85,7 +85,7 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
           ImageDataProcessor::Image.new(
             id: "222",
             make: "Canon",
-            model: "EOS 20D",
+            model: "EOS 400D Digital",
             thumbnail_url: "http://example.com/20d.jpg"
           ),
           ImageDataProcessor::Image.new(
@@ -107,11 +107,6 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
           "<li>",
           "<a href='#{File.expand_path("canon/eos-400d-digital.html", "output")}'>",
           "Canon EOS 400D Digital",
-          "</a>",
-          "</li>",
-          "<li>",
-          "<a href='#{File.expand_path("canon/eos-20d.html", "output")}'>",
-          "Canon EOS 20D",
           "</a>",
           "</li>",
           "<li>",
