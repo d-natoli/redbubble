@@ -25,7 +25,7 @@ module ImageDataProcessor
 
     attr_reader :filename, :output_dir, :title, :navigation, :gallery
 
-    def build_file
+    def build
       build_output_directory
 
       document =  File.read(TEMPLATE)

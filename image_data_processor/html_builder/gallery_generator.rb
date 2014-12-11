@@ -10,7 +10,7 @@ module ImageDataProcessor
 
     attr_reader :images
 
-    def generate_gallery
+    def generate
       ["<div id='gallery'>"].tap{ |gallery_parts|
         gallery_parts << (images.count > 0 ?
                           build_images :

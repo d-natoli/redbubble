@@ -2,7 +2,7 @@ require 'spec_helper'
 
 RSpec.describe ImageDataProcessor::HtmlBuilder::FileBuilder do
 
-  describe "#build_file" do
+  describe "#build" do
     let(:filename){ "output/canon/powershot.html" }
     let(:title){ "Canon Powershot" }
 
@@ -40,13 +40,13 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::FileBuilder do
     end
 
     it "builds the file" do
-      subject.build_file
+      subject.build
 
       expect(File.exist?('output/canon/powershot.html')).to be true
     end
 
     it "adds the title" do
-      subject.build_file
+      subject.build
 
       text = File.read 'output/canon/powershot.html'
 
@@ -57,7 +57,7 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::FileBuilder do
     end
 
     it "adds the navigation" do
-      subject.build_file
+      subject.build
 
       text = File.read 'output/canon/powershot.html'
 
@@ -68,7 +68,7 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::FileBuilder do
     end
 
     it "adds the gallery" do
-      subject.build_file
+      subject.build
 
       text = File.read 'output/canon/powershot.html'
 

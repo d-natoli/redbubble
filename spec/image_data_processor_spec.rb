@@ -12,12 +12,12 @@ RSpec.describe ImageDataProcessor do
 
       it "doesn't raise an error" do
         expect{
-          described_class.run filename
+          described_class.run filename, "output"
         }.to_not raise_error
       end
 
       it "generates the correct amount of files" do
-        described_class.run filename
+        described_class.run filename, "output"
 
         expect(
           Dir[File.join('output', '**', '*')].count{ |file|
@@ -33,7 +33,7 @@ RSpec.describe ImageDataProcessor do
       end
 
       it "generates some of the expected files" do
-        described_class.run filename
+        described_class.run filename, "output"
 
         expect(File.exist? 'output/index.html').to be true
         expect(File.exist? 'output/canon.html').to be true
@@ -41,7 +41,7 @@ RSpec.describe ImageDataProcessor do
       end
 
       it "generates the correct data" do
-        described_class.run filename
+        described_class.run filename, "output"
 
         text = File.read File.expand_path('canon/canon-eos-20d.html', 'output')
 
@@ -66,13 +66,13 @@ RSpec.describe ImageDataProcessor do
         allow(STDOUT).to receive(:puts)
 
         expect{
-          described_class.run filename
+          described_class.run filename, "output"
         }.to_not raise_error
       end
 
       it "prints the correct message when given an invalid file" do
         expect(STDOUT).to receive(:puts).with "File is invalid!"
-        described_class.run filename
+        described_class.run filename, "output"
       end
     end
   end

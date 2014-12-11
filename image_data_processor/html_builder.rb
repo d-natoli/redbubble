@@ -7,18 +7,19 @@
 module ImageDataProcessor
   class HtmlBuilder
 
-    def self.build_pages(images)
-      builder = new(images)
+    def self.build_pages(images, output_dir)
+      builder = new(images, output_dir)
       builder.build_index_page
       builder.build_make_pages
       builder.build_model_pages
     end
 
-    def initialize(images)
+    def initialize(images, output_dir)
       @images = images
+      @output_dir = output_dir
     end
 
-    attr_reader :images
+    attr_reader :images, :output_dir
 
     def build_index_page
       build_page filename: build_path("index"),
@@ -52,7 +53,7 @@ module ImageDataProcessor
     private
 
     def build_path(make, model = nil)
-      PathBuilder.generate(make, model)
+      PathBuilder.build(output_dir, make, model)
     end
 
     def images_by_make
@@ -60,19 +61,24 @@ module ImageDataProcessor
     end
 
     def build_title(make = nil, model = nil)
-      TitleGenerator.generate_title(make: make, model: model)
+      TitleGenerator.generate(make: make, model: model)
     end
 
     def build_navigation(images, type, include_index = false)
-      NavigationGenerator.new(images, type, include_index).generate_navigation
+      NavigationGenerator.new(
+        images: images,
+        type: type,
+        output_dir: output_dir,
+        include_index: include_index
+      ).generate
     end
 
     def build_gallery(images)
-      GalleryGenerator.new(images).generate_gallery
+      GalleryGenerator.new(images).generate
     end
 
     def build_page(attributes)
-      FileBuilder.new(attributes).build_file
+      FileBuilder.new(attributes).build
     end
 
   end
