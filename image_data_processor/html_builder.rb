@@ -7,6 +7,13 @@
 module ImageDataProcessor
   class HtmlBuilder
 
+    def self.build_pages(images)
+      builder = new(images)
+      builder.build_index_page
+      builder.build_make_pages
+      builder.build_model_pages
+    end
+
     def initialize(images)
       @images = images
     end

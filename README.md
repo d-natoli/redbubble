@@ -17,6 +17,9 @@ Run `bundle install`.
 
 ## Usage
 
+To generate the html pages run `ruby run.rb *<filename>*` where *<filename>* is the path to the input xml file.
+
+All files will be generated and placed in the `output` folder. **Please make sure you have the correct permissions to write to the folder this README (and all the code) is currently located in.**
 
 ## Testing
 
