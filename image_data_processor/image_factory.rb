@@ -20,7 +20,7 @@ module ImageDataProcessor
       def build_image(image_data_hash)
         Image.new image_data_hash
       rescue ArgumentError
-        nil
+        nil # used to determine a failed import
       end
 
       def print_failed_import_message_if_required(images)

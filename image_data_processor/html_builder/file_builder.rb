@@ -7,6 +7,7 @@ require 'fileutils'
 module ImageDataProcessor
   class HtmlBuilder::FileBuilder
 
+    # TODO: Allow the template path to be specified on input
     TEMPLATE = File.expand_path "docs/output-template.html"
     TITLE_PLACEHOLDER = '{{ TITLE GOES HERE }}'
     NAVIGATION_PLACEHOLDER = '{{ NAVIGATION GOES HERE }}'
