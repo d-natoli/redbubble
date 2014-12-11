@@ -44,7 +44,7 @@ module ImageDataProcessor
     end
 
     def generate_menu_item(parent, child = nil)
-      path = generate_path(parent, child)
+      path = HtmlBuilder::PathBuilder.generate(parent, child)
       text = generate_text(parent, child)
 
       ["<li>"].tap{ |item_parts|
@@ -53,13 +53,6 @@ module ImageDataProcessor
         item_parts << "</a>"
         item_parts << "</li>"
       }.join
-    end
-
-    def generate_path(parent, child = nil)
-      path_parts = []
-      path_parts << parent.downcase.gsub(" ",  "-")
-      path_parts << child.downcase.gsub(" ", "-") unless child.nil?
-      "#{path_parts.join("/")}.html"
     end
 
     def generate_text(parent, child = nil)

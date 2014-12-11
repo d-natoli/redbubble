@@ -13,4 +13,5 @@ end
 require_relative 'html_builder/title_generator'
 require_relative 'html_builder/navigation_generator'
 require_relative 'html_builder/gallery_generator'
+require_relative 'html_builder/path_builder'
 require_relative 'html_builder/file_builder'
