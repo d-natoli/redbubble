@@ -4,19 +4,20 @@
 module ImageDataProcessor
   class HtmlBuilder::NavigationGenerator
 
-    def initialize(images, type, include_index = false)
+    def initialize(images:, type:, output_dir:, include_index: false)
       @images_by_make = images.group_by{ |image| image.make }
       @type = type
+      @output_dir = output_dir
       @include_index = include_index
     end
 
-    attr_reader :images_by_make, :type
+    attr_reader :images_by_make, :type, :output_dir
 
     def include_index?
       !!@include_index
     end
 
-    def generate_navigation
+    def generate
       ["<ul>"].tap{ |navigation_parts|
         navigation_parts << generate_menu_item("Index") if include_index?
         navigation_parts << generate_menu
@@ -46,7 +47,7 @@ module ImageDataProcessor
     end
 
     def generate_menu_item(parent, child = nil)
-      path = HtmlBuilder::PathBuilder.generate(parent, child)
+      path = HtmlBuilder::PathBuilder.build(output_dir, parent, child)
       text = generate_text(parent, child)
 
       ["<li>"].tap{ |item_parts|

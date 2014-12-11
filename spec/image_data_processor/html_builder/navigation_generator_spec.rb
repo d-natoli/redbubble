@@ -2,20 +2,33 @@ require 'spec_helper'
 
 RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
 
-  describe "#generate_navigation" do
+  describe "#generate" do
     context "when not including the index or any navigation items" do
-      subject{ described_class.new([], :make) }
+      subject do
+        described_class.new(
+          images: [],
+          type: :make,
+          output_dir: "output"
+        )
+      end
 
       it "returns an empty list" do
-        expect(subject.generate_navigation).to eq "<ul></ul>"
+        expect(subject.generate).to eq "<ul></ul>"
       end
     end
 
     context "when including the index but no navigation items" do
-      subject{ described_class.new([], :make, true) }
+      subject do
+        described_class.new(
+          images: [],
+          type: :make,
+          output_dir: "output",
+          include_index: true
+        )
+      end
 
       it "returns a list with the index" do
-        expect(subject.generate_navigation)
+        expect(subject.generate)
           .to eq "<ul><li><a href='#{File.expand_path("index.html", "output")}'>Index</a></li></ul>"
       end
     end
@@ -66,10 +79,16 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
         ].join
       end
 
-      subject{ described_class.new(navigation_items, :make) }
+      subject do
+        described_class.new(
+          images: navigation_items,
+          type: :make,
+          output_dir: "output"
+        )
+      end
 
       it "returns a list with the navigation items" do
-        expect(subject.generate_navigation).to eq expected_output
+        expect(subject.generate).to eq expected_output
       end
     end
 
@@ -118,10 +137,17 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
         ].join
       end
 
-      subject{ described_class.new(navigation_items, :model, true) }
+      subject do
+        described_class.new(
+          images: navigation_items,
+          type: :model,
+          output_dir: "output",
+          include_index: true
+        )
+      end
 
       it "returns a list with the navigation items" do
-        expect(subject.generate_navigation).to eq expected_output
+        expect(subject.generate).to eq expected_output
       end
     end
   end

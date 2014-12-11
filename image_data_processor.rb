@@ -5,11 +5,11 @@
 # off the provided template.
 
 module ImageDataProcessor
-  def self.run(filename)
+  def self.run(filename, output_dir)
     data_hashes = Parser.parse filename
     images = ImageFactory.build_images data_hashes
 
-    HtmlBuilder.build_pages(images)
+    HtmlBuilder.build_pages(images, output_dir)
   rescue ArgumentError => e
     puts e.message
   end
