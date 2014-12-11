@@ -11,11 +11,13 @@ output_dir = ARGV[1]
 
 if filename.nil? || (filename.respond_to?(:empty?) && filename.empty?)
   puts "Please provide the path of the input file!"
+  puts "USAGE: ruby run.rb <filename> <output_directory>"
   exit
 end
 
 if output_dir.nil? || (output_dir.respond_to?(:empty?) && output_dir.empty?)
   puts "Please provide the directory for the output!"
+  puts "USAGE: ruby run.rb <filename> <output_directory>"
   exit
 end
 
