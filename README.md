@@ -21,6 +21,8 @@ To generate the html pages run `ruby run.rb *<filename>* *<output_directory>*` w
 
 **Please make sure you have the correct permissions to write to the folder this README (and all the code) is currently located in.** The processor can be run multiple times without issue; it will simply overwrite the files that are currently there.
 
+Once the HTML pages have been generated, navigate to the output folder you specific and open `index.html`.
+
 ## Testing
 
 Run 'bundle exec rspec'.

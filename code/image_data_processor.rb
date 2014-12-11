@@ -10,6 +10,8 @@ module ImageDataProcessor
     images = ImageFactory.build_images data_hashes
 
     HtmlBuilder.build_pages(images, output_dir)
+
+    puts "HTML pages generated!"
   rescue ArgumentError => e
     puts e.message
   end
