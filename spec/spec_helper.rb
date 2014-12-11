@@ -1,2 +1,2 @@
-require_relative '../image_data_processor'
+require_relative '../code/image_data_processor'
 require 'fileutils'

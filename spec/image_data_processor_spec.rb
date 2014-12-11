@@ -2,6 +2,10 @@ require 'spec_helper'
 
 RSpec.describe ImageDataProcessor do
 
+  before :each do
+    allow(STDOUT).to receive(:puts)
+  end
+
   after :each do
     FileUtils.rm_r 'output/' if Dir.exists?('output')
   end
