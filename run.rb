@@ -4,7 +4,7 @@
 # as an exectuable but then I'd have to assume where
 # your ruby is installed.
 
-require_relative 'image_data_processor'
+require_relative 'code/image_data_processor'
 
 filename = ARGV[0]
 output_dir = ARGV[1]
