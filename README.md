@@ -17,9 +17,9 @@ Run `bundle install`.
 
 ## Usage
 
-To generate the html pages run `ruby run.rb *<filename>*` where *<filename>* is the path to the input xml file.
+To generate the html pages run `ruby run.rb *<filename>* *<output_directory>*` where *<filename>* is the path to the input xml file, and *<output_directory>* is where the output will be placed after it is generated. This folder doesn't have to exist before running the processor.
 
-All files will be generated and placed in the `output` folder. **Please make sure you have the correct permissions to write to the folder this README (and all the code) is currently located in.** The processor can be run multiple times without issue; it will simply overwrite the files that are currently there.
+**Please make sure you have the correct permissions to write to the folder this README (and all the code) is currently located in.** The processor can be run multiple times without issue; it will simply overwrite the files that are currently there.
 
 ## Testing
 
@@ -57,7 +57,7 @@ Firstly, I would add some CSS to make the pages look a lot better. It seemed a b
 
 Secondly, I would remove the hard-coding of xml node names in the parser files.  At the moment it is very brittle, if the file doesn't fit the expected format it fails.  It does the job it's supposed to but in order to easily change the format later on it would need to be made more flexible. I have put a TODO task in there to remind me to change it to a YAML file or something that is easily deployed without having to redeploy the whole codebase.
 
-This also goes for the file creation. It needs to be more robust (check that it's not overwriting anything it shouldn't, check for permissions, etc.) and flexible (allow you to define a template, allow you to define an output folder, etc.). At the moment a lot of this is hardcoded.
+This also goes for the file creation. It needs to be more robust (check that it's not overwriting anything it shouldn't, check for permissions, etc.) and flexible (allow you to define a template, etc.). At the moment a lot of this is hardcoded.
 
 I'm also unhappy with the naming of the classes/modules that build the HTML to insert. `TitleGenerator`, `NavigationGenerator` and `GalleryGenerator` sound a bit vague, and get extra silly when you call their generate methods, e.g. `TitleGenerator.generate_title`. They also need to be made a bit more uniform in terms of their interfaces.
 
