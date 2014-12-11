@@ -8,7 +8,6 @@ module ImageDataProcessor
   class HtmlBuilder::FileBuilder
 
     TEMPLATE = File.expand_path "docs/output-template.html"
-    ROOT_OUTPUT_DIR = File.expand_path 'output'
     TITLE_PLACEHOLDER = '{{ TITLE GOES HERE }}'
     NAVIGATION_PLACEHOLDER = '{{ NAVIGATION GOES HERE }}'
     GALLERY_PLACEHOLDER = '{{ THUMBNAIL IMAGES GO HERE }}'
@@ -40,15 +39,11 @@ module ImageDataProcessor
     private
 
     def build_output_directory
-      FileUtils::mkdir_p output_directory_path
-    end
-
-    def output_directory_path
-      File.expand_path(output_dir, ROOT_OUTPUT_DIR)
+      FileUtils::mkdir_p output_dir
     end
 
     def output_path
-      File.expand_path(filename, output_directory_path)
+      File.expand_path(filename, output_dir)
     end
 
     def replace(document, placeholder, content)

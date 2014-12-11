@@ -16,7 +16,7 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
 
       it "returns a list with the index" do
         expect(subject.generate_navigation)
-          .to eq "<ul><li><a href='index.html'>Index</a></li></ul>"
+          .to eq "<ul><li><a href='#{File.expand_path("index.html", "output")}'>Index</a></li></ul>"
       end
     end
 
@@ -48,17 +48,17 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
         [
           "<ul>",
           "<li>",
-          "<a href='fuji.html'>",
+          "<a href='#{File.expand_path("fuji.html", "output")}'>",
           "Fuji",
           "</a>",
           "</li>",
           "<li>",
-          "<a href='nikon.html'>",
+          "<a href='#{File.expand_path("nikon.html", "output")}'>",
           "Nikon",
           "</a>",
           "</li>",
           "<li>",
-          "<a href='canon.html'>",
+          "<a href='#{File.expand_path("canon.html", "output")}'>",
           "Canon",
           "</a>",
           "</li>",
@@ -100,22 +100,22 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::NavigationGenerator do
         [
           "<ul>",
           "<li>",
-          "<a href='index.html'>",
+          "<a href='#{File.expand_path("index.html", "output")}'>",
           "Index",
           "</a>",
           "</li>",
           "<li>",
-          "<a href='canon/eos-400d-digital.html'>",
+          "<a href='#{File.expand_path("canon/eos-400d-digital.html", "output")}'>",
           "Canon EOS 400D Digital",
           "</a>",
           "</li>",
           "<li>",
-          "<a href='canon/eos-20d.html'>",
+          "<a href='#{File.expand_path("canon/eos-20d.html", "output")}'>",
           "Canon EOS 20D",
           "</a>",
           "</li>",
           "<li>",
-          "<a href='canon/unknown.html'>",
+          "<a href='#{File.expand_path("canon/unknown.html", "output")}'>",
           "Canon Unknown",
           "</a>",
           "</li>",

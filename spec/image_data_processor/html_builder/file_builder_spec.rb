@@ -4,7 +4,7 @@ require 'fileutils'
 RSpec.describe ImageDataProcessor::HtmlBuilder::FileBuilder do
 
   describe "#build_file" do
-    let(:filename){ "canon/powershot.html" }
+    let(:filename){ "output/canon/powershot.html" }
     let(:title){ "Canon Powershot" }
 
     let(:navigation) do
