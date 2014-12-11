@@ -1,6 +1,8 @@
 # This class parses the file using nokogiri and
 # calls the hash conversion for easier data access.
 
+require 'nokogiri'
+
 module ImageDataProcessor
   class Parser
 
