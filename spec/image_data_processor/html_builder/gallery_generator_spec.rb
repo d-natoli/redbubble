@@ -2,12 +2,12 @@ require 'spec_helper'
 
 RSpec.describe ImageDataProcessor::HtmlBuilder::GalleryGenerator do
 
-  describe "#generate_gallery" do
+  describe "#generate" do
     context "when given no images" do
       subject{ described_class.new([]) }
 
       it "returns an empty gallery" do
-        expect(subject.generate_gallery)
+        expect(subject.generate)
           .to eq "<div id='gallery'><p>There are no images to display!</p></div>"
       end
     end
@@ -49,7 +49,7 @@ RSpec.describe ImageDataProcessor::HtmlBuilder::GalleryGenerator do
       subject{ described_class.new images }
 
       it "creates the correct gallery" do
-        expect(subject.generate_gallery).to eq expected_output
+        expect(subject.generate).to eq expected_output
       end
     end
   end

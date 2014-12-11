@@ -60,7 +60,7 @@ module ImageDataProcessor
     end
 
     def build_title(make = nil, model = nil)
-      TitleGenerator.generate_title(make: make, model: model)
+      TitleGenerator.generate(make: make, model: model)
     end
 
     def build_navigation(images, type, include_index = false)
@@ -68,11 +68,11 @@ module ImageDataProcessor
     end
 
     def build_gallery(images)
-      GalleryGenerator.new(images).generate_gallery
+      GalleryGenerator.new(images).generate
     end
 
     def build_page(attributes)
-      FileBuilder.new(attributes).build_file
+      FileBuilder.new(attributes).build
     end
 
   end

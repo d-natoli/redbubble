@@ -40,10 +40,12 @@ RSpec.describe ImageDataProcessor::HtmlBuilder do
     it "calls the generators with the correct values" do
       expect(ImageDataProcessor::HtmlBuilder::NavigationGenerator)
         .to receive(:new).with(images, :make, false).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::GalleryGenerator)
         .to receive(:new).with(images.take 10).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::TitleGenerator)
-        .to receive(:generate_title).and_call_original
+        .to receive(:generate).and_call_original
 
       subject.build_index_page
     end
@@ -73,14 +75,16 @@ RSpec.describe ImageDataProcessor::HtmlBuilder do
       allow(ImageDataProcessor::HtmlBuilder::GalleryGenerator)
         .to receive(:new).and_call_original
       allow(ImageDataProcessor::HtmlBuilder::TitleGenerator)
-        .to receive(:generate_title).and_call_original
+        .to receive(:generate).and_call_original
 
       expect(ImageDataProcessor::HtmlBuilder::NavigationGenerator)
         .to receive(:new).with([images.first], :model, true).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::GalleryGenerator)
         .to receive(:new).with([images.first]).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::TitleGenerator)
-        .to receive(:generate_title).and_call_original
+        .to receive(:generate).and_call_original
 
       subject.build_make_pages
     end
@@ -112,14 +116,16 @@ RSpec.describe ImageDataProcessor::HtmlBuilder do
       allow(ImageDataProcessor::HtmlBuilder::GalleryGenerator)
         .to receive(:new).and_call_original
       allow(ImageDataProcessor::HtmlBuilder::TitleGenerator)
-        .to receive(:generate_title).and_call_original
+        .to receive(:generate).and_call_original
 
       expect(ImageDataProcessor::HtmlBuilder::NavigationGenerator)
         .to receive(:new).with([images.first], :make, true).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::GalleryGenerator)
         .to receive(:new).with([images.first]).and_call_original
+
       expect(ImageDataProcessor::HtmlBuilder::TitleGenerator)
-        .to receive(:generate_title).and_call_original
+        .to receive(:generate).and_call_original
 
       subject.build_model_pages
     end

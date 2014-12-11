@@ -4,7 +4,7 @@
 module ImageDataProcessor
   module HtmlBuilder::TitleGenerator
 
-    def self.generate_title(make: nil, model: nil)
+    def self.generate(make: nil, model: nil)
       title_parts = ["Redbubble"]
       title_parts << make unless make.nil?
       title_parts << model unless model.nil? || make.nil?
