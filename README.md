@@ -17,7 +17,7 @@ Run `bundle install`.
 
 ## Usage
 
-To generate the html pages run `ruby run.rb *<filename>* *<output_directory>*` where *<filename>* is the path to the input xml file, and *<output_directory>* is where the output will be placed after it is generated. This folder doesn't have to exist before running the processor.
+To generate the html pages run `ruby run.rb <filename> <output_directory>` where *filename* is the path to the input xml file, and *output_directory* is where the output will be placed after it is generated. This folder doesn't have to exist before running the processor.
 
 **Please make sure you have the correct permissions to write to the folder this README (and all the code) is currently located in.** The processor can be run multiple times without issue; it will simply overwrite the files that are currently there.
 
@@ -61,7 +61,7 @@ Secondly, I would remove the hard-coding of xml node names in the parser files. 
 
 This also goes for the file creation. It needs to be more robust (check that it's not overwriting anything it shouldn't, check for permissions, etc.) and flexible (allow you to define a template, etc.). At the moment a lot of this is hardcoded.
 
-I'm also unhappy with the naming of the classes/modules that build the HTML to insert. `TitleGenerator`, `NavigationGenerator` and `GalleryGenerator` sound a bit vague, and get extra silly when you call their generate methods, e.g. `TitleGenerator.generate_title`. They also need to be made a bit more uniform in terms of their interfaces.
+I'm also unhappy with the naming of the classes/modules that build the HTML to insert. `TitleGenerator`, `NavigationGenerator` and `GalleryGenerator` sound a bit vague, and get extra silly when you call their generate methods, e.g. `TitleGenerator.generate`. They also need to be made a bit more uniform in terms of their interfaces.
 
 The bit of meta-programming in the `Image` class is a bit horrid, solely because I don't really like using `instance_variable_get`, it just makes me feel a bit dirty.
 
